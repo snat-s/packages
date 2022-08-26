@@ -133,7 +133,8 @@ class TestSimpleLayout extends DynamicSliverGridLayout {
   bool reachedTargetScrollOffset(double targetOffset) => true;
 
   @override
-  DynamicSliverGridGeometry updateGeometryForChildIndex(int index, Size childSize) {
+  DynamicSliverGridGeometry updateGeometryForChildIndex(
+      int index, Size childSize) {
     return getGeometryForChildIndex(index);
   }
 }

@@ -134,7 +134,9 @@ class TestSimpleLayout extends DynamicSliverGridLayout {
 
   @override
   DynamicSliverGridGeometry updateGeometryForChildIndex(
-      int index, Size childSize) {
+    int index,
+    Size childSize,
+  ) {
     return getGeometryForChildIndex(index);
   }
 }
